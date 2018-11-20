@@ -13,10 +13,11 @@ donors.
 - Download the files along with the mock database. 
 - Download XAMPP if not there on your PC.
 - Congifure tha Apache and SQL ports for XAMPP
-- Start XAMPP and place these files (except the sql and screenshots files) in ** C:/xampp/htdocs ** folder
-- Go to ** localhost/phpmyadmin ** in browser and import the sql file ** ngo.sql ** in a new database
-- Go to the folder path in the browser and open ** homepage.php **
-
+- Start XAMPP and place these files (except the sql and screenshots files) in **C:/xampp/htdocs** folder
+- Go to **localhost/phpmyadmin** in browser and import the sql file **ngo.sql** in a new database
+- Go to the folder path in the browser and open **homepage.php**
+- The usernames and passwords (same as username) for the already present NGOs are: **ngo1**, **ngo 2** and so on.
+- The path for admin page is **/admin_login** and username and password (same as username) is **system** )
 ## Screenshots
 #### Homepage
 
