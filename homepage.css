@@ -1,0 +1,164 @@
+html{
+  height:100%;
+  font-family: "Montserrat",sans-serif;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: "Montserrat",sans-serif;
+}
+
+/*Make navbar transparent*/
+/*Change for other pages*/
+.navbar-default, .navbar-inverse{
+  background-color: rgba(0,0,0,0.5);
+}
+
+/*Links on the right of navbar*/
+.navbar-default .navbar-nav li a{
+  color: #b0bec5;
+  font-size: 18px;
+  background-color: rgba(0,0,0,0.5); 
+}
+.navbar-default .navbar-nav li a:hover{
+  color:#fff;
+}
+/*Logo*/
+.navbar-header .navbar-brand{
+  color: #b0bec5;
+  font-family: 'Pacifico', cursive;;
+  font-size: 28px;
+}
+.navbar-header .navbar-brand:hover{
+  color:#fff;
+}
+
+/*Hamburger*/
+.icon-bar{
+  color: #fff;
+}
+/*NAVBAR ENDS*/
+
+/*background image in intro*/
+.intro {
+    background: url(cover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: relative;
+    background-repeat: no-repeat;
+    height:100vh;
+    min-height:100vh;
+}
+
+/*gradient for intro*/
+.intro .overlay {
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.8)), color-stop(17%, rgba(0, 0, 0, 0.73)), color-stop(35%, rgba(0, 0, 0, 0.66)), color-stop(62%, rgba(0, 0, 0, 0.55)), color-stop(100%, rgba(0, 0, 0, 0.4)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+    /* IE6-9 */
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+/*style for content on image*/
+.intro-content{
+    position: absolute;
+    padding: 20% 0 5% 0;
+    left: 0;
+    right: 0;
+}
+.intro h1 {
+    color:#ffffff;
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.intro p{
+    margin-top: 1%;
+    color:#cfd8dc;
+    font-size: 24px;
+}
+.name-tag{
+  font-family: 'Pacifico', cursive;;
+}
+
+/*FEATURES STARTS*/
+.features-heading{
+  padding-top: 4%;
+  background-color:#fafafa;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  display: block;
+}
+
+.col-md-4{
+  background-color:#fafafa;
+  padding: 2%;
+}
+
+/*Setting icons. Icons to be thought as font*/
+.icon-container {
+    width: 175px;
+    height: 175px;
+    line-height: 175px;
+    max-width: 100%;
+    color: white;
+    font-size: 55px;
+    background: #212121;  
+    border-radius: 50%;
+    display:block;
+    position: relative;
+    margin: 0 auto 40px;
+}
+.icon-container:hover {
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all ease .7s;
+    -moz-transition: all ease .7s;
+    transition: all ease .7s;
+}
+
+/*heading of feature*/
+.feature-subheading-container{
+    margin: 0 auto 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*description of feature*/
+.features-description{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+}
+
+/*FEATURES ENDS*/
+
+/*FOOTER*/
+footer{
+  background-color: #212121;
+}
+.contact-container{
+  padding-top: 1%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  color: white;
+}
+
+.copyright-container{
+  padding-top: 0.5%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  color: white;
+}
+

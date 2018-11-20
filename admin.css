@@ -1,0 +1,86 @@
+html{
+  height:100%;
+  font-family: "Montserrat",sans-serif;
+}
+body{
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #414345, #212121);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #414345, #212121); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin:0;
+  padding:0;
+  background-attachment: fixed;
+}
+
+/*Make navbar transparent*/
+/*Change for other pages*/
+.navbar-default, .navbar-inverse, .dropdown-menu{
+  background-color: rgba(0,0,0);
+}
+
+/*Links on the right of navbar*/
+.navbar-default .navbar-nav li a{
+  color: #b0bec5;
+  font-size: 18px;
+}
+.navbar-default .navbar-nav li a:hover{
+  color:#fff;
+}
+/*Logo*/
+.navbar-header .navbar-brand{
+  color: #b0bec5;
+  font-family: 'Pacifico', cursive;
+  font-size: 28px;
+}
+.navbar-header .navbar-brand:hover{
+  color:#b0bec5;
+}
+
+/*Hamburger*/
+.icon-bar{
+  color: #fff;
+}
+/*NAVBAR ENDS*/
+
+.ngo-name{
+  color: #b0bec5;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 40px;
+  margin-top: 70px;
+  letter-spacing: 2px;
+}
+
+.tab-container, .table-container{
+  margin-top:20px; 
+  background-color: #222222;
+  box-shadow: 0px 0px 10px 10px #222222;
+  border-radius: 10px;
+}
+
+.tabs{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.tabs ul li a{
+  color: #b0bec5;
+}
+.tabs ul li a:hover{
+  color: white;
+  background-color: #222222;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    color: #fff;
+    background-color: #b0bec5;
+}
+
+.tab-content{
+  padding:15px;
+}
+
+.tab-pane{
+  color: black;
+  background-color: #fafafa;
+  border-radius: 10px;
+  padding: 15px;
+}
+

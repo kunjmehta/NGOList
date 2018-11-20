@@ -1,0 +1,170 @@
+html{
+  height:100%;
+  font-family: "Montserrat",sans-serif;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: "Montserrat",sans-serif;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #414345, #212121);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #414345, #212121); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment: fixed;
+}
+
+/*Make navbar transparent*/
+/*Change for other pages*/
+.navbar-default, .navbar-inverse{
+  background-color: rgba(0,0,0);
+}
+
+/*Links on the right of navbar*/
+.navbar-default .navbar-nav li a{
+  color: #b0bec5;
+  font-size: 18px;
+  background-color: rgba(0,0,0); 
+}
+.navbar-default .navbar-nav li a:hover{
+  color:#fff;
+}
+/*Logo*/
+.navbar-header .navbar-brand{
+  color: #b0bec5;
+  font-family: 'Pacifico', cursive;;
+  font-size: 28px;
+}
+.navbar-header .navbar-brand:hover{
+  color:#fff;
+}
+
+/*Hamburger*/
+.icon-bar{
+  color: #fff;
+}
+/*NAVBAR ENDS*/
+
+/*CARD DETAILS OF NGOS*/
+.container-fluid{
+  margin-top: 70px;
+}
+.contain-details{
+  margin-top: 15px;
+}
+.margin-container{
+  margin-top: 20px;
+}
+/*.card{
+  border-radius: 10px;
+}*/
+
+.ngo-name{
+  background-color: #fafafa;
+  font-size: 20px;
+  border-bottom: 3px #222222;
+  font-family:'Source Sans Pro', sans-serif;
+  color: #222222;
+}
+.card-header{ 
+  padding: 5px;
+  margin:0px;
+  border-bottom: 2px solid black;
+}
+
+.card-details {
+  padding-top:15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  margin:0px;
+  font-size: 16px;
+  color: #222222;
+  font-family:'Source Sans Pro', sans-serif;
+  line-height: 0.2em;
+}
+p{
+  margin: 0;
+  padding: 5px;
+  line-height: 1.2em;
+}
+
+/*DOWN ARROW FOR MAPS*/
+.down-arrow-container{
+  height: 0;
+}
+a.fa.fa-angle-down{
+  position: relative;
+  color: #78909c;
+  font-size: 40px;
+  transition: all 0.5s;
+}
+a.fa.fa-angle-down:hover {
+    color: #222222;
+    text-decoration: none;
+}
+a.fa.fa-angle-down:focus {
+    text-decoration: none;
+}
+a.fa.fa-angle-up{
+  position: relative;
+  color: #78909c;
+  font-size: 40px;
+  transition: all 0.5s;
+  display: none;
+}
+a.fa.fa-angle-up:hover {
+    color: #222222;
+    text-decoration: none;
+}
+a.fa.fa-angle-up:focus {
+    text-decoration: none;
+}
+
+/*TABS*/
+.tab-container, .table-container{
+  margin-top:20px; 
+  background-color: #222222;
+  box-shadow: 0px 0px 10px 10px #222222;
+  border-radius: 10px;
+}
+
+.tabs{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  color: white;
+  margin-top: 50px;
+}
+.tabs ul li a{
+  color: #b0bec5;
+}
+.tabs ul li a:hover{
+  color: white;
+  /*background-color: #222222;*/
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    color: #fff;
+    background-color: #b0bec5;
+}
+
+.tab-content{
+  padding:15px;
+}
+
+.tab-pane{
+  color: white;
+  border-radius: 10px;
+}
+
+/*MAPS*/
+.map-button{
+  background-color: #fafafa;
+  margin:0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px; 
+}
+.map-container{
+  padding: 20px;
+  display: none;
+}
+/*API KEY = 
+AIzaSyAE4x8s87dyYr_6auXG9CG2BEFpgXnIwC4
+*/
